@@ -272,7 +272,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 
 #header h1 {
   margin: 0 auto;
-  width: 310px;
+  max-width: 140px;
   height: 100px;
 }
 
@@ -528,7 +528,8 @@ input[type=submit]:hover, input[type=reset]:hover {
   }
 
   #header h1 {
-    width: 180px;
+    margin: 0px auto;
+    margin-top: -15px;
   }
 
   #header h1 img {

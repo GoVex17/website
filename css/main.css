@@ -587,6 +587,37 @@ input[type=submit]:hover, input[type=reset]:hover {
     left: 0px;
   }
 
+
+  #info .section h3{
+    text-align: left;
+    margin:0px;
+    padding: 0px;
+    margin-bottom:20px;
+  }
+
+  #info .section h4{
+    text-align: left;
+    padding: 0px;
+    margin-bottom:15px;
+    margin-top:15px;
+    font-weight:400;
+  }
+
+  #info .section p, #info .section2 p{
+    line-height: 1.1em;
+    padding: 0px;
+    margin:0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #info .section ul{
+    line-height: 1.1em;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -613,6 +644,37 @@ input[type=submit]:hover, input[type=reset]:hover {
     height: auto;
     padding-left: 0em;
     margin: 0px;
+  }
+
+
+  #info .section h3{
+    text-align: left;
+    margin:0px;
+    padding: 0px;
+    margin-bottom:20px;
+  }
+
+  #info .section h4{
+    text-align: left;
+    padding: 0px;
+    margin-bottom:15px;
+    margin-top:15px;
+    font-weight:400;
+  }
+
+  #info .section p, #info .section2 p{
+    line-height: 1.1em;
+    padding: 0px;
+    margin:0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #info .section ul{
+    line-height: 1.1em;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
   }
 
 }
@@ -656,6 +718,35 @@ input[type=submit]:hover, input[type=reset]:hover {
     margin: 0px;
   }
 
+  #info .section h3{
+    text-align: left;
+    margin:0px;
+    padding: 0px;
+    margin-bottom:20px;
+  }
+
+  #info .section h4{
+    text-align: left;
+    padding: 0px;
+    margin-bottom:15px;
+    margin-top:15px;
+    font-weight:400;
+  }
+
+  #info .section p, #info .section2 p{
+    line-height: 1.1em;
+    padding: 0px;
+    margin:0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #info .section ul{
+    line-height: 1.1em;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -676,6 +767,36 @@ input[type=submit]:hover, input[type=reset]:hover {
     height: auto;
     padding-left: 0em;
     margin: 0px;
+  }
+
+  #info .section h3{
+    text-align: left;
+    margin:0px;
+    padding: 0px;
+    margin-bottom:20px;
+  }
+
+  #info .section h4{
+    text-align: left;
+    padding: 0px;
+    margin-bottom:15px;
+    margin-top:15px;
+    font-weight:400;
+  }
+
+  #info .section p, #info .section2 p{
+    line-height: 1.1em;
+    padding: 0px;
+    margin:0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #info .section ul{
+    line-height: 1.1em;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
   }
 
 }

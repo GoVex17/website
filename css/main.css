@@ -81,10 +81,20 @@
 }
 
 #info .section img{
-  max-width: 100%;
+  max-width: 800px;
   height: auto;
   padding-left: 1em;
   margin: 10px 20px;
+}
+
+#info .section .img1 {
+  max-width: 40%;
+  left: 0px;
+}
+
+#info .section .img2 {
+  max-width: 40%;
+  right: 0px;
 }
 
 @media screen and (max-width: 950px) {
@@ -564,6 +574,17 @@ input[type=submit]:hover, input[type=reset]:hover {
     height: auto;
     padding-left: 0em;
     margin: 0px;
+  }
+
+  #info .section .img1 {
+    max-width: 100%;
+    padding-bottom: 15px;
+    left: 0px;
+  }
+
+  #info .section .img2 {
+    max-width: 100%;
+    left: 0px;
   }
 
 }

@@ -1,7 +1,7 @@
 /*=========================== CONTENT ===========================*/
 
 #wrapper{
-  background-color: #141414
+  background-color: #1e1e1e
 }
 
 #info .content{
@@ -24,6 +24,14 @@
   max-width: 750px; /*Imp*/
   margin: 0 auto 0;
   width: 80%;
+}
+
+#info .content .section .video{
+  margin-top: 50px;
+}
+
+#info .content .section .video-note{
+  margin-bottom: 40px;
 }
 
 #info .videoWrapper{

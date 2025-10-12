@@ -1,7 +1,6 @@
 /*=========================== CONTENT ===========================*/
-
 #wrapper{
-  background-color: #1e1e1e
+  background-color: #141414; /*#1e1e1e*/
 }
 
 #info .content{
@@ -9,7 +8,7 @@
   max-width: 1250px; /*Important*/
   padding: 0 50px;
   margin: 0 auto;
-  color: #fff
+  color: #fff; /*#fff*/
 }
 
 #info .video-note{
@@ -51,6 +50,7 @@
   padding: 30px;
   font-size: 18px;
   margin: 30px 0;
+  border-left: outset;
   background: rgba(0,0,0,0.1); /* Sign square transparent bg */
 }
 
@@ -112,6 +112,31 @@
   text-align:right;
 }
 
+#info .section .twocolumns {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+#info .section .twocolumns .left, #info .section .twocolumns .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#info .section .twocolumns .left p, #info .section .twocolumns .right p {
+  padding: 0px;
+  margin: 1px;
+}
+
 @media screen and (max-width: 950px) {
 
   #info .content{
@@ -148,6 +173,20 @@
     font-size: 18px;
     margin: 30px 0;
     background: rgba(0,0,0,0.1); /* Sign square transparent bg */
+    border-left: unset;
+  }
+
+  #info .section .twocolumns {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #info .section .twocolumns .left, #info .section .twocolumns .right {
+    width: 100%;
   }
 
 }

@@ -68,8 +68,8 @@
   text-align: left;
   padding: 30px;
   color: #e5989b;
-  margin-top:-15px;
-  margin-bottom:-15px;
+  margin-top:-5px;
+  margin-bottom:-25px;
   font-weight:400;
 }
 
@@ -859,3 +859,4 @@ input[type=submit]:hover, input[type=reset]:hover {
 #policy ,h1,h2,h3,p,ul{
   margin: 30px 30px;
 }
+

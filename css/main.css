@@ -87,7 +87,7 @@
 
 #info .section a{
   color: #beefc7;
-  text-decoration: none;
+  text-decoration: underline; /*none*/
 }
 
 #info .section img{
@@ -859,6 +859,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 #policy ,h1,h2,h3,p,ul{
   margin: 30px 30px;
 }
+
 
 
 

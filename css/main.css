@@ -1,6 +1,6 @@
 /*=========================== CONTENT ===========================*/
 #wrapper{
-  background-color: #141414; /*#1e1e1e*/
+  background-color: #1e1e1e; /*#1e1e1e*/
 }
 
 #info .content{
@@ -859,4 +859,5 @@ input[type=submit]:hover, input[type=reset]:hover {
 #policy ,h1,h2,h3,p,ul{
   margin: 30px 30px;
 }
+
 

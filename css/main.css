@@ -56,7 +56,7 @@
 
 #info .section h3{
   text-align: left;
-  color: #119303;
+  color: #4bdfaa;
   text-transform:uppercase;
   font-size:1.2em;
   margin-top:10px;
@@ -67,7 +67,7 @@
 #info .section h4{
   text-align: left;
   padding: 30px;
-  color: #2fbd62;
+  color: #34ad87;
   margin-top:-5px;
   margin-bottom:-25px;
   font-weight:400;
@@ -86,7 +86,7 @@
 }
 
 #info .section a{
-  color: #beefc7;
+  color: #8ee3d0;
   text-decoration: underline; /*none*/
 }
 
@@ -859,6 +859,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 #policy ,h1,h2,h3,p,ul{
   margin: 30px 30px;
 }
+
 
 
 
